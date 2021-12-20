@@ -1,0 +1,179 @@
+html {
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+body {
+   
+    height: 100%;
+    margin: 0;
+    background-image: url("foto_sfondo.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+    text-decoration: none !important;
+}
+p {
+    text-decoration: none !important;
+}
+h1{
+    color: coral;
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+.container {
+    background-color: white;
+    border-radius: 3px;
+   
+    padding: 0px !important;
+    
+}
+.container *{
+    padding: 10px;
+}
+.logo-navbar{
+    width: 150px;
+    margin: 10px;
+    margin-left: 20px;
+ }
+nav {
+  
+   
+}
+    nav a {
+        color: white !important;
+        font-size: 25px;
+        font-weight: bold;
+        color: black !important;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    }
+        nav a:hover {
+            text-shadow: none;
+        }
+a:hover{
+    color: coral !important;
+}
+.parallax {
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.section{
+    
+    padding-top: 100px;
+    
+    display: flex;
+}
+p {
+        font-size: large;
+        font-weight: bold;
+        text-align: justify !important;
+    }
+.hello img{
+    width: 100%;
+    padding-right: 10px;
+}
+.bg-title {
+    padding-top: 250px;
+    
+   
+    height: 500px;
+}
+    .parallax h1 {
+        color: coral;
+        font-weight: bold;
+        font-size: 90px;
+       
+    }
+.gallery img {
+    width: 100%;
+    padding: 5%;
+    border: groove;
+    border: none;
+    display: inline-block;
+    background-size: 120%;
+    transition: all 0.2s ease-in-out;
+}
+.gallery img:hover {
+    cursor: pointer;
+    background-size: 100%;
+}
+.section-title{
+    margin-top: 50px;
+    font-size: 65px;
+}
+
+.nav-section{
+    
+    text-align: end;
+    padding-right:30px;
+}
+#skill h1 {
+    color: darkslateblue !important;
+}
+.skill{
+    padding-bottom: 100px;
+    background-color: aliceblue; 
+    
+
+}
+.skill img{
+    width: 40%;
+    margin-left:30%;
+}
+.nav-section a{
+   margin-left: 10%;
+}
+.title {
+  
+   
+}
+#contact{
+    margin-top: 100px;
+    padding-bottom: 80px;
+
+}
+#contact li {
+        list-style: none;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+#project {
+    margin-top: 100px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    background-color: aliceblue;
+}
+#project h1{
+    color: darkslateblue;
+}
+    #project a {
+        color: darkslateblue;
+    }
+#project li{
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#social{
+    margin-top: 100px;
+    width : 200px;
+    margin: 0 auto;
+
+}
+
+#social img{
+   margin: 0 auto;
+   margin-right: 0 auto;
+   width: 31%;
+}
+footer {
+    background-color: white;
+    /*padding-top: 30px;*/
+    padding-bottom: 30px;
+}
